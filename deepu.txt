@@ -1,0 +1,62 @@
+1.#ask the user for a number and
+#print the table of that number till 20.
+a=int(input("enter a value"))
+i=1
+print("have a great day")
+while (i<=20):
+	b=a*i
+	print(a,"*",i,"=",b)
+	i=i+1
+
+output:
+enter a value:5
+have a great day
+5*1=5
+5*2=10
+5*3=15
+5*4=20
+5*5=25
+5*6=30
+5*7=35
+5*8=40
+5*9=45
+5*10=50
+5*11=55
+5*12=60
+5*13=65
+5*14=70
+5*15=75
+5*16=80
+5*17=85
+5*18=90
+5*19=95
+5*20=100
+
+
+
+
+2.#program to check the random number
+import random 
+print (random.randint(50,70))
+
+output:
+53
+54
+66
+
+
+3.#write a program to roll and quit the dice
+while True:
+	i=input("enter 'n' to quit")
+	if(i=='n'):
+		print("bye")
+		exit()
+
+	else:
+		print("try again")
+
+output:
+enter 'n' to quit:j
+try again
+enter 'n' to quit:n
+bye
